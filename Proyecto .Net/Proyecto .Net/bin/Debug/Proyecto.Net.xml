@@ -1,0 +1,4376 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Proyecto.Net
+</name>
+</assembly>
+<members>
+<member name="T:Proyecto.Net.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.Abajo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.adm">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.BUS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.busa">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.empleados">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.empleados1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.EMTRANS">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.eve">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.Lgo1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.Lgo11">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.Lgo12">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.LOGO">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.LOGO1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.Menu">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.prod">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.prov">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.pve">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto.Net.My.Resources.Resources.ven">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrr.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrrTableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrrTableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrrTableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrrTableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrrTableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrrTableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrrTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.brrrrTableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.brrrr,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.brrrrTableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.brrrr,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.brrrrTableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.brrrr,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.brrrrTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.brrrrTableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.brrrr)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrrTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.brrrrTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.CONSULTABRRR">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.CONSULTABRRR.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.CONSULTABRRR.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.CONSULTABRRR.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.CONSULTABRRRTableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.CONSULTABRRRTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.CONSULTABRRRTableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.CONSULTABRRR,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.CONSULTABRRRTableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.CONSULTABRRR,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.CONSULTABRRRTableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.CONSULTABRRR,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.CONSULTABRRRTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.CONSULTABRRRTableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.CONSULTABRRR)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.CONSULTABRRRTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.CONSULTABRRRTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet1.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet1.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet1.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet1TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet1TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet10">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet10.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet10.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet10.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet10TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet10TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet10TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet10)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet11">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet11.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet11.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet11.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet11TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet11TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet11TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet11,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet11TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet11TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet11,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet11TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet11TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet11)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet11TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet11TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet12.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet12.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet12.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet12TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet12TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet13">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet13.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet13.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet13.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet13TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet13TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet13TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet13,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet13TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet13TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet13,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet13TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet13TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet13)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet13TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet13TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet14">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet14.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet14.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet14.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet14TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet14TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet14TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet14,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet14TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet14TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet14,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet14TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet14TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet14)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet14TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet14TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet15">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet15.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet15.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet15.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet15TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet15TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet15TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet15,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet15TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet15TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet15,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet15TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet15TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet15)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet15TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet15TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet16">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet16.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet16.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet16.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet16TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet16TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet16TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet16,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet16TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet16TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet16TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet16TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet16)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet16TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet16TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet17">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet17.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet17.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet17.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet17TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet17TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet17TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet17,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet17TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet17TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet17,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet17TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet17TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet17)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet17TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet17TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet18">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet18.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet18.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet18.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet18TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet18TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet18TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet18,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet18TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet18TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet18TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet18TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet18)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet18TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet18TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet19">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet19.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet19.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet19.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet19TableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet19TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet19TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet19,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet19TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet19TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet19,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet19TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet19TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet19)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet19TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet19TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet2.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet2.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet2.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet2TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet2TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet20">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet20.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet20.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet20.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet20TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet20TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet20TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet20,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet20TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet20TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet20TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet20TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet20)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet20TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet20TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet21">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet21.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet21.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet21.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet21TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet21TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet21TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet21,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet21TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet21TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet21TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet21TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet21)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet21TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet21TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet22">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet22.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet22.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet22.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet22TableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet22TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet22TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet22,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet22TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet22TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet22,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet22TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet22TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet22)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet22TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet22TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet23">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet23.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet23.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet23.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet23TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet23TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet23TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet23,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet23TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet23TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet23,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet23TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet23TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet23)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet23TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet23TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet24">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet24.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet24.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet24.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet24TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet24TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet24TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet24,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet24TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet24TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet24,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet24TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet24TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet24)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet24TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet24TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet25">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet25.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet25.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet25.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet25TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet25TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet25TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet25,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet25TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet25TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet25,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet25TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet25TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet25)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet25TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet25TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet26">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet26.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet26.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet26.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet26TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet26TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet26TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet26,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet26TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet26TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet26,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet26TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet26TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet26)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet26TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet26TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet27">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet27.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet27.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet27.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet27TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet27TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet27TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet27,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet27TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet27TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet27,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet27TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet27TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet27)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet27TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet27TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet28">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet28.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet28.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet28.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet28TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet28TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet28TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet28,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet28TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet28TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet28,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet28TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet28TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet28)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet28TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet28TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet29">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet29.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet29.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet29.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet29TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet29TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet29TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet29,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet29TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet29TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet29,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet29TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet29TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet29)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet29TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet29TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet3.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet3.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet3.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet3TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet3TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet30">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet30.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet30.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet30.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet30TableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet30TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet30TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet30,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet30TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet30TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet30,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet30TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet30TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet30)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet30TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet30TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet31">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet31.ConsultarVentasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet31.ConsultarVentasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet31.ConsultarVentasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet31TableAdapters.ConsultarVentasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet31TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet31TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet31,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet31TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet31TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet31,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet31TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet31TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet31)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet31TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet31TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet32,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet32,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet32,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet32)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet32TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet33,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet33,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet33,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet33)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet33TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet34,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet34,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet34,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet34)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet34TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet35">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet35.ConsultarVentasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet35.ConsultarVentasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet35.ConsultarVentasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet35TableAdapters.ConsultarVentasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet35TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet35TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet35,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet35TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet35,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet35TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet35,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet35TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet35TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet35)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet35TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet35TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet36,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet36,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet36,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet36)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet36TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet37,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet37,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet37,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet37)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet37TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet38,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet38,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet38,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet38)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet38TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet39">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet39.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet39.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet39.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet39TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet39TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet39TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet39,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet39TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet39,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet39TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet39,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet39TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet39TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet39)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet39TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet39TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet4.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet4.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet4.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet4TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet4TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet40">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet40.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet40.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet40.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet40TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet40TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet40TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet40,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet40TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet40,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet40TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet40,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet40TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet40TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet40)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet40TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet40TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet41">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet41.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet41.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet41.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet41TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet41TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet41TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet41,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet41TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet41,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet41TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet41,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet41TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet41TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet41)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet41TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet41TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet42">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet42.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet42.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet42.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet42TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet42TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet42TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet42,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet42TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet42,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet42TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet42,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet42TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet42TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet42)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet42TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet42TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet43">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet43.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet43.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet43.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet43TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet43TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet43TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet43,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet43TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet43,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet43TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet43,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet43TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet43TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet43)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet43TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet43TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet44">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet44.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet44.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet44.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet44TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet44TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet44TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet44,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet44TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet44,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet44TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet44,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet44TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet44TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet44)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet44TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet44TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet45">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet45.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet45.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet45.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet45TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet45TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet45TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet45,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet45TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet45,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet45TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet45,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet45TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet45TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet45)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet45TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet45TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet46">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet46.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet46.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet46.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet46TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet46TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet46TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet46,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet46TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet46,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet46TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet46,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet46TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet46TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet46)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet46TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet46TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet47">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet47.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet47.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet47.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet47TableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet47TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet47TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet47,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet47TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet47,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet47TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet47,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet47TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet47TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet47)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet47TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet47TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet48">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet48.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet48.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet48.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet48TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet48TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet48TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet48,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet48TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet48,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet48TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet48,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet48TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet48TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet48)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet48TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet48TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet5.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet5.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet5.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet5TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet5TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6.PROVEEDORESDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6.PROVEEDORESRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6.PROVEEDORESRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.PROVEEDORESTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet6)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet7">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet7.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet7.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet7.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet7TableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet7TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet7TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet7)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet8">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet8.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet8.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet8.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet8TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet8TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet8TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet8)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet9.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet9.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet9.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet9TableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.LIVESHOWSGROUPDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.LIVESHOWSGROUPDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.LIVESHOWSGROUPDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.LIVESHOWSGROUPDataSet9TableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.LIVESHOWSGROUPDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.LIVESHOWSGROUPDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.EMPLEADOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.EVENTODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.PRODUCTOSDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.PUNTO_VENTADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.VENTASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.EMPLEADOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.EVENTORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.PRODUCTOSRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.PUNTO_VENTARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.VENTASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.EMPLEADOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.EVENTORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.PRODUCTOSRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.PUNTO_VENTARowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.xd.VENTASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Proyecto.Net.xdTableAdapters.EMPLEADOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xdTableAdapters.EVENTOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xdTableAdapters.PRODUCTOSTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xdTableAdapters.PUNTO_VENTATableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xdTableAdapters.VENTASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xdTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Proyecto.Net.xdTableAdapters.TableAdapterManager.UpdateUpdatedRows(Proyecto.Net.xd,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.xdTableAdapters.TableAdapterManager.UpdateInsertedRows(Proyecto.Net.xd,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.xdTableAdapters.TableAdapterManager.UpdateDeletedRows(Proyecto.Net.xd,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Proyecto.Net.xdTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Proyecto.Net.xdTableAdapters.TableAdapterManager.UpdateAll(Proyecto.Net.xd)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Proyecto.Net.xdTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Proyecto.Net.xdTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

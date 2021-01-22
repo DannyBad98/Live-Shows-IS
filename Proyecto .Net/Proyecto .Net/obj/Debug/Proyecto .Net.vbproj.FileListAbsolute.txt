@@ -1,0 +1,23 @@
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\bin\Debug\Proyecto.Net.exe.config
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\bin\Debug\Proyecto.Net.exe
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\bin\Debug\Proyecto.Net.pdb
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\bin\Debug\Proyecto.Net.xml
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto .Net.vbprojAssemblyReference.cache
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.Resources.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto .Net.vbproj.GenerateResource.cache
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.exe
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.xml
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.pdb
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.AMenu.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.Login.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.UMenu.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.Empleados.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.Proveedores.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.Productos.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.PuntoV.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.Evento.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.Ventas.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.UProductos.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.UPuntoV.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.UEventos.resources
+C:\Users\cozmo\source\repos\Proyecto .Net\Proyecto .Net\obj\Debug\Proyecto.Net.UVentas.resources

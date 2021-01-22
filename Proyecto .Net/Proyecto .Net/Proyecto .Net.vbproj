@@ -1,0 +1,1118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{797D9954-99FC-4E48-B6DC-CEFF25C3CF7A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Proyecto.Net.My.MyApplication</StartupObject>
+    <RootNamespace>Proyecto.Net</RootNamespace>
+    <AssemblyName>Proyecto.Net</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Proyecto.Net.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Proyecto.Net.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="brrrr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>brrrr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CONSULTABRRR.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CONSULTABRRR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.Designer.vb">
+      <DependentUpon>Empleados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evento.Designer.vb">
+      <DependentUpon>Evento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Evento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet16.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet18.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet19.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet22.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet23.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet24.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet25.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet26.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet27.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet28.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet29.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet30.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet31.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet32.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet32.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet33.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet33.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet34.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet34.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet35.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet35.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet36.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet36.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet37.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet37.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet38.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet38.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet39.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet39.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet40.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet40.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet41.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet41.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet42.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet42.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet43.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet43.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet44.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet44.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet45.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet45.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet46.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet46.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet47.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet47.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet48.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet48.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet71.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet71.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LIVESHOWSGROUPDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LIVESHOWSGROUPDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AMenu.Designer.vb">
+      <DependentUpon>AMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Productos.Designer.vb">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proveedores.Designer.vb">
+      <DependentUpon>Proveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PuntoV.Designer.vb">
+      <DependentUpon>PuntoV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PuntoV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UEventos.Designer.vb">
+      <DependentUpon>UEventos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UEventos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UMenu.Designer.vb">
+      <DependentUpon>UMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UProductos.Designer.vb">
+      <DependentUpon>UProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UPuntoV.Designer.vb">
+      <DependentUpon>UPuntoV.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UPuntoV.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UVentas.Designer.vb">
+      <DependentUpon>UVentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UVentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas.Designer.vb">
+      <DependentUpon>Ventas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="xd.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>xd.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AMenu.resx">
+      <DependentUpon>AMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados.resx">
+      <DependentUpon>Empleados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evento.resx">
+      <DependentUpon>Evento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores.resx">
+      <DependentUpon>Proveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PuntoV.resx">
+      <DependentUpon>PuntoV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UEventos.resx">
+      <DependentUpon>UEventos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UMenu.resx">
+      <DependentUpon>UMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UProductos.resx">
+      <DependentUpon>UProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPuntoV.resx">
+      <DependentUpon>UPuntoV.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UVentas.resx">
+      <DependentUpon>UVentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas.resx">
+      <DependentUpon>Ventas.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="brrrr.xsc">
+      <DependentUpon>brrrr.xsd</DependentUpon>
+    </None>
+    <None Include="brrrr.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>brrrr.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="brrrr.xss">
+      <DependentUpon>brrrr.xsd</DependentUpon>
+    </None>
+    <None Include="CONSULTABRRR.xsc">
+      <DependentUpon>CONSULTABRRR.xsd</DependentUpon>
+    </None>
+    <None Include="CONSULTABRRR.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CONSULTABRRR.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CONSULTABRRR.xss">
+      <DependentUpon>CONSULTABRRR.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet1.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet1.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet10.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet10.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet11.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet11.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet12.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet12.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet13.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet13.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet14.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet14.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet15.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet15.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet16.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet16.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet16.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet17.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet17.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet18.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet18.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet18.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet19.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet19.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet19.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet2.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet2.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet20.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet20.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet21.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet21.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet22.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet22.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet22.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet23.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet23.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet23.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet24.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet24.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet24.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet25.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet25.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet25.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet26.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet26.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet26.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet27.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet27.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet27.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet28.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet28.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet28.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet29.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet29.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet29.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet3.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet3.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet30.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet30.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet30.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet31.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet31.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet31.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet32.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet32.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet32.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet32.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet32.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet33.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet33.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet33.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet33.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet33.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet34.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet34.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet34.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet34.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet34.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet35.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet35.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet35.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet35.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet35.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet36.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet36.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet36.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet36.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet36.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet37.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet37.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet37.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet37.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet37.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet38.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet38.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet38.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet38.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet38.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet39.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet39.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet39.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet39.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet39.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet4.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet4.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet40.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet40.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet40.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet40.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet40.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet41.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet41.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet41.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet41.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet42.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet42.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet42.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet42.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet42.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet43.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet43.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet43.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet43.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet43.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet44.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet44.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet44.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet44.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet44.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet44.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet45.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet45.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet45.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet45.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet45.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet45.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet46.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet46.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet46.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet46.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet46.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet46.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet47.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet47.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet47.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet47.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet47.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet47.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet48.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet48.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet48.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet48.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet48.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet48.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet5.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet5.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet6.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet6.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet71.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet71.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet71.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet71.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet71.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet71.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet8.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet8.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet9.xsc">
+      <DependentUpon>LIVESHOWSGROUPDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LIVESHOWSGROUPDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LIVESHOWSGROUPDataSet9.xss">
+      <DependentUpon>LIVESHOWSGROUPDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="xd.xsc">
+      <DependentUpon>xd.xsd</DependentUpon>
+    </None>
+    <None Include="xd.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>xd.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="xd.xss">
+      <DependentUpon>xd.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lgo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lgo11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abajo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lgo12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prov.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prod.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eve.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pve.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ven.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EMTRANS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
